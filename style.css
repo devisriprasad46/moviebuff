@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #000;
+}
+
+.main{
+    display: relative;
+}
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 5px;
+    padding-bottom: 43px;
+}
+
+button{
+    border: none;
+    background-color: rgb(247, 34, 34);
+    padding: 10px;
+    border-radius: 17px;
+    cursor: pointer;
+}
+.main .background img{
+    position: absolute;
+    background-image: url(images/bg.jpg);
+    z-index: -1;
+    opacity: 0.35;
+    height: 100vh;
+    width: 100%;
+}
+
+.content{
+    color: white;
+    text-align: center;
+    /* font-weight: bolder; */
+    margin-bottom: 25px;
+}
+.content h1{
+    margin-bottom: 20px;
+}
+.content p{
+    font-weight: 600;
+    font-size: 20px;
+}
+.form{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.form p{
+    color: aliceblue;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.form input{
+    background-color: rgb(62, 59, 59);
+    color: white;
+    text-align: center;
+    border: none;
+    padding: 8px;
+    margin: 14px;
+    border-radius: 7px;
+    opacity: 0.9;
+    width: 24%;
+}
+.form label{
+    color: aliceblue;
+    font-weight: bold;
+}
+
+.formbelow{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    color: antiquewhite;
+    gap: 14px;
+    align-items: center;
+}
+.formbelow a{
+    color: antiquewhite;
+}
